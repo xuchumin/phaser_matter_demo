@@ -1,0 +1,66 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"poly": {
+		"type": "fromPhysicsEditor",
+		"label": "1",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 1
+		},
+		"fixtures": [
+			{
+				"label": "多边形地板",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":268, "y":4 }, { "x":229, "y":98 }, { "x":339, "y":92 } ],
+					[ { "x":166, "y":52 }, { "x":121, "y":108 }, { "x":229, "y":98 } ],
+					[ { "x":436, "y":37 }, { "x":339, "y":92 }, { "x":494, "y":164 } ],
+					[ { "x":4, "y":103 }, { "x":2, "y":164 }, { "x":121, "y":108 }, { "x":61, "y":76 } ],
+					[ { "x":494, "y":164 }, { "x":339, "y":92 }, { "x":229, "y":98 }, { "x":121, "y":108 }, { "x":2, "y":164 } ]
+				]
+			},
+			{
+				"label": "三角形",
+				"isSensor": true,
+				"vertices": [
+					[ { "x":132, "y":28 }, { "x":92, "y":28 }, { "x":92, "y":68 } ]
+				]
+			}
+		]
+	},
+	"star": {
+		"type": "fromPhysicsEditor",
+		"label": "star",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 1,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":67, "y":0 }, { "x":51, "y":49 }, { "x":67, "y":98.5 }, { "x":93.5, "y":80 }, { "x":84, "y":49 } ],
+					[ { "x":134.5, "y":49 }, { "x":84, "y":49 }, { "x":93.5, "y":80 } ],
+					[ { "x":25, "y":128.5 }, { "x":67, "y":98.5 }, { "x":51, "y":49 } ],
+					[ { "x":109.5, "y":128 }, { "x":93.5, "y":80 }, { "x":67, "y":98.5 } ],
+					[ { "x":0, "y":49 }, { "x":40.5, "y":79 }, { "x":51, "y":49 } ]
+				]
+			}
+		]
+	}
+}
